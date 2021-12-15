@@ -2,7 +2,7 @@ let mongoose=require('mongoose');
 
 mongoose.connect('mongodb://localhost/PRG06', { useNewUrlParser: true, useUnifiedTopology : true });//PRG06
 
-console.log('starting: hello world')
+console.log('starting: my webservice')
 
 //koppel package aan de web server
 const express = require('express');

@@ -1,4 +1,4 @@
 {
-    "uri":"http://145.24.222.204:8000/api/cars",
+    "uri":"http://145.24.222.91:8000/api/cars",
     "uitleg":"Dit is een webservice voor vervoersmiddelen. Je kunt er een nieuwe aanmaken, verwijderen en aanpassen!"
 }
