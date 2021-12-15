@@ -12,7 +12,6 @@ let carModel = new Schema(
         year: { type: String},
         fuel: { type: String},
         power: { type: String},
-
     }
 );
 
