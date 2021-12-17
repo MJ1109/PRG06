@@ -1,6 +1,6 @@
 let mongoose=require('mongoose');
 
-mongoose.connect('mongodb://localhost/PRG06', { useNewUrlParser: true, useUnifiedTopology : true });//PRG06
+mongoose.connect('mongodb://localhost/PRG06', { useNewUrlParser: true, useUnifiedTopology : true, useFindAndModify : false});//PRG06
 
 console.log('starting: my webservice')
 

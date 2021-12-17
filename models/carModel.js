@@ -5,13 +5,28 @@ let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
 //only strings allowed!
-let carModel = new Schema(
+const carModel = new Schema(
     {
-        title: { type: String },
-        class: { type: String },
-        year: { type: String},
-        fuel: { type: String},
-        power: { type: String},
+        title: { 
+            type: String, 
+            required: true
+        },
+        class: { 
+            type: String, 
+            required: true
+        },
+        year: { 
+            type: String, 
+            required: true
+        },
+        fuel: { 
+            type: String, 
+            required: true
+        },
+        power: { 
+            type: String, 
+            required: true
+        }
     }
 );
 
